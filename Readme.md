@@ -1,8 +1,6 @@
-# Purr Todo App
+# TaskToDo App
 
-![Todo Logo](/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png)
-
-Purr Todo is an app for managing TO-DO Task, you can create, edit and delete the task, mark it as in
+TaskToDo is an app for managing TO-DO Task, you can create, edit and delete the task, mark it as in
 progress and done. Also you can configure some preferences for your profile like name and profile
 picture.
 
@@ -45,7 +43,3 @@ Dribble
 ---
 
 <br>
-
-## Feedback
-
-If you have any feedback please let me know at [@abulnes16](https://twitter.com/abulnes16) :D
