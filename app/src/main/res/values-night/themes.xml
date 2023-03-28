@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PurrTodoList" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- App Font -->
+        <item name="android:fontFamily">@font/dm_sans</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

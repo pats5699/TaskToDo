@@ -1,0 +1,92 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PurrTodoList" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- App Font -->
+        <item name="android:fontFamily">@font/dm_sans</item>
+        <item name="android:textColor">@color/light_text</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOnBackground">@color/background</item>
+        <item name="android:colorBackground">@color/background
+        </item>        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/background_status_bar</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="TitleText.Headline1" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="fontFamily">@font/dm_sans_bold</item>
+    </style>
+
+    <style name="TitleText.Headline2" parent="TitleText.Headline1">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TitleText.Headline3" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="TitleText.SmallHeadline" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/light_text</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="PurrButton.Primary" parent="Theme.PurrTodoList">
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="elevation">2dp</item>
+        <item name="android:minHeight">55dip</item>
+    </style>
+
+    <style name="PurrButton.Secondary" parent="PurrButton.Primary">
+        <item name="backgroundTint">@color/secondary</item>
+    </style>
+
+    <style name="CardRoundedIcon" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">10dp</item>
+        <item name="cardElevation">3dp</item>
+        <item name="contentPadding">8dp</item>
+    </style>
+
+    <style name="BadgeIcon.Primary" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">5dp</item>
+        <item name="contentPaddingLeft">5.5dp</item>
+        <item name="contentPaddingRight">5.5dp</item>
+        <item name="contentPaddingTop">5dp</item>
+        <item name="contentPaddingBottom">5dp</item>
+        <item name="cardBackgroundColor">@color/secondary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="ShapeAppearance.PurrTodo.TextInputLayout.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="RoundedTextInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="shapeAppearanceOverlay">
+            @style/ShapeAppearance.PurrTodo.TextInputLayout.Rounded
+        </item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="RoundShapeTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="shapeAppearanceMediumComponent">@style/RoundShapeAppearance</item>
+    </style>
+
+    <style name="RoundShapeAppearance" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+</resources>
